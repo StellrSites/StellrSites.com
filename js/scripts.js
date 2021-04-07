@@ -118,7 +118,7 @@ darkModeToggle.addEventListener('click', () => {
 
 const processForm = form => {
   const data = new FormData(form)
-  data.append('form-name', 'newsletter');
+  data.append('form-name', 'Contact Form');
   fetch('/', {
     method: 'POST',
     body: data,
@@ -131,7 +131,7 @@ const processForm = form => {
   })
 }
 
-const emailForm = document.querySelector('.email-form')
+const emailForm = document.querySelector('footer .top .right form')
 if (emailForm) {
   emailForm.addEventListener('submit', e => {
     e.preventDefault();
