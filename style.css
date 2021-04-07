@@ -983,7 +983,7 @@ footer .bottom .text {
 		height: 600px;
 	}
 
-	.home .hero .shape1 {
+	.hero .shape1 {
 		-webkit-animation: backandforthOne 6s ease-in-out 0s;
 	    -webkit-animation-iteration-count:infinite;
 	    animation: backandforthOne 6s ease-in-out 0s;
@@ -992,7 +992,7 @@ footer .bottom .text {
 
 	@-webkit-keyframes backandforthOne {0%{left:20px;} 50%{left:40px;} 100%{left:20px;}}
 
-	.home .hero .shape2 {
+	.hero .shape2 {
 		-webkit-animation: backandforthTwo 6s ease-in-out 0s;
 	    -webkit-animation-iteration-count:infinite;
 	    animation: backandforthTwo 6s ease-in-out 0s;
@@ -1004,7 +1004,7 @@ footer .bottom .text {
 
 	@-webkit-keyframes backandforthTwo {0%{left:10%;bottom:5%;} 50%{left:14%;bottom:10%;} 100%{left:10%;bottom:5%;}}
 
-	.home .hero .shape3 {
+	.hero .shape3 {
 		-webkit-animation: backandforthThree 6s ease-in-out 0s;
 	    -webkit-animation-iteration-count:infinite;
 	    animation: backandforthThree 6s ease-in-out 0s;
@@ -1014,7 +1014,7 @@ footer .bottom .text {
 
 	@-webkit-keyframes backandforthThree {0%{right:10%;top:30%;} 50%{right:10%;top:24%;} 100%{right:10%;top:30%;}}
 
-	.home .hero .shape4 {
+	.hero .shape4 {
 		-webkit-animation: backandforthFour 6s ease-in-out 0s;
 	    -webkit-animation-iteration-count:infinite;
 	    animation: backandforthFour 6s ease-in-out 0s;
@@ -1145,6 +1145,7 @@ footer .bottom .text {
 
 	.about .hero {
 		height: 250px;
+		padding: 0 20px;
 	}
 
 	.about .hero .inner-container {
@@ -1180,10 +1181,6 @@ footer .bottom .text {
 	footer .bottom .logo {
 		max-width: 125px;
     	margin: 0 auto 45px;
-	}
-
-	.about .hero .shape3 {
-		display: none;
 	}
 }
 
