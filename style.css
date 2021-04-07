@@ -724,6 +724,17 @@ footer .top .right {
     width: 100%;
 }
 
+footer .top .right .form, footer .top .right form {
+	height: 100%;
+}
+
+footer .top .right .form .form-success {
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 footer .top .right form p {
 	margin-bottom: 0;
 }
