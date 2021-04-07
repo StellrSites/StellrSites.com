@@ -546,6 +546,7 @@ header .inner-container nav ul li.active a:after {
 }
 
 .section-5 .inner-container .slider .single .rating img {
+	display: inline-block;
 	max-width: 16px;
 	width: 100%;
 	height: auto;
