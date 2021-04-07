@@ -551,7 +551,8 @@ header .inner-container nav ul li.active a:after {
 }
 
 .section-5 .inner-container .slider .single .rating img {
-	width: 16px;
+	max-width: 16px;
+	width: 100%;
 	margin: 0 2px;
 }
 
