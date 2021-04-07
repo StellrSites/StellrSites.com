@@ -724,10 +724,6 @@ footer .top .right {
     width: 100%;
 }
 
-footer .top .right form label {
-	display: none;
-}
-
 footer .top .right form input, footer .top .right form textarea {
 	box-sizing: border-box;
 	font-family: 'Roboto', serif;
