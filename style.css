@@ -545,15 +545,10 @@ header .inner-container nav ul li.active a:after {
 	color: #fff;
 }
 
-.section-5 .inner-container .slider .single .rating {
-	display: flex;
-	justify-content: center;
-}
-
 .section-5 .inner-container .slider .single .rating img {
 	max-width: 16px;
 	width: 100%;
-	margin: 0 2px;
+	height: auto;
 }
 
 .section-5 .person1 {
