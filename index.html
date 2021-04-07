@@ -335,7 +335,13 @@
 				</div>
 				<div class="right">
 					<div class="form">
-						<form netlify>
+						<form data-netlify="true" name="Contact Form" method="POST" netlify-honeypot="bot-field">
+							<div hidden aria-hidden="true">
+							    <label>
+							    	Don’t fill this out if you're human: 
+							    	<input name="bot-field" />
+								</label>
+							</div>
 							<label for="name">Name:</label>
 							<input type="text" id="name" name="name" placeholder="Name"><br>
 							<label for="name">Email Address:</label>

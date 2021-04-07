@@ -971,13 +971,45 @@ footer .bottom .text {
 	}
 
 	.home .hero .shape1 {
-		-webkit-animation: backandforth 6s ease-in-out 0s;
+		-webkit-animation: backandforthOne 6s ease-in-out 0s;
 	    -webkit-animation-iteration-count:infinite;
-	    animation: backandforth 6s ease-in-out 0s;
+	    animation: backandforthOne 6s ease-in-out 0s;
 	    animation-iteration-count:infinite;
 	}
 
-	@-webkit-keyframes backandforth {0%{left:20px;} 50%{left:40px;} 100%{left:20px;}}
+	@-webkit-keyframes backandforthOne {0%{left:20px;} 50%{left:40px;} 100%{left:20px;}}
+
+	.home .hero .shape2 {
+		-webkit-animation: backandforthTwo 6s ease-in-out 0s;
+	    -webkit-animation-iteration-count:infinite;
+	    animation: backandforthTwo 6s ease-in-out 0s;
+	    animation-iteration-count:infinite;
+	    animation-delay: 1.5s;
+	    left:10%;
+	    bottom:5%;
+	}
+
+	@-webkit-keyframes backandforthTwo {0%{left:10%;bottom:5%;} 50%{left:14%;bottom:10%;} 100%{left:10%;bottom:5%;}}
+
+	.home .hero .shape3 {
+		-webkit-animation: backandforthThree 6s ease-in-out 0s;
+	    -webkit-animation-iteration-count:infinite;
+	    animation: backandforthThree 6s ease-in-out 0s;
+	    animation-iteration-count:infinite;
+	    animation-delay: 1s;
+	}
+
+	@-webkit-keyframes backandforthThree {0%{right:10%;top:30%;} 50%{right:10%;top:24%;} 100%{right:10%;top:30%;}}
+
+	.home .hero .shape4 {
+		-webkit-animation: backandforthFour 6s ease-in-out 0s;
+	    -webkit-animation-iteration-count:infinite;
+	    animation: backandforthFour 6s ease-in-out 0s;
+	    animation-iteration-count:infinite;
+	    animation-delay: 2s;
+	}
+
+	@-webkit-keyframes backandforthFour {0%{right:25%;bottom:12%;} 50%{right:28%;bottom:16%;} 100%{right:25%;bottom:12%;}}
 
 	.home .hero .inner-container .content {
 		margin: 0 auto;
@@ -992,7 +1024,7 @@ footer .bottom .text {
 	}
 
 	.section-5 {
-		padding: 70px 20px;
+		padding: 45px 20px;
 	}
 
 	.section-5 .person1,
@@ -1048,6 +1080,10 @@ footer .bottom .text {
 		margin-bottom: 0;
 	}
 
+	.section-2 {
+		padding: 50px 20px;
+	}
+
 	.section-2 .inner-container {
 		display: block;
 	}
@@ -1067,8 +1103,12 @@ footer .bottom .text {
     	margin: 0 5%;
 	}
 
-	.section-3 {
+	.section-3, .section-4 {
 	    padding: 50px 20px;
+	}
+
+	.section-4 .inner-container .flex {
+		margin: 40px auto 0;
 	}
 
 	footer .top .inner-container {
