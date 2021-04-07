@@ -685,6 +685,7 @@ footer .top .inner-container {
     z-index: 1;
     position: relative;
     background-color: #fff;
+    min-height: 411px;
 }
 
 footer .top .left {
@@ -763,6 +764,7 @@ footer .top .right form input[type="submit"] {
     cursor: pointer;
     width: auto;
     margin-bottom: 0;
+    -webkit-appearance: none;
 }
 
 footer .top .right form input[type="submit"]:hover {
