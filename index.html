@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Stellr Sites</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+	<link rel="shortcut icon" type="image/jpg" href="images/favicon.png"/>
+	<link rel="stylesheet" href="inc/hamburgers.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Roboto:wght@300&family=Yellowtail&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css"/>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="dark.css">
+</head>
+<body>
+	<header>
+		<div class="inner-container">
+			<div class="logo">
+				<img class="white" src="images/header-logo-white.png" alt="">
+				<img class="teal" src="images/stellr-logo-teal.png" alt="">
+				<h4>stellr</h4>
+				<div aria-hidden="true" class="neon" id="desktop-neon">
+                    <span>N</span>
+                    <span>i</span>
+                    <span>t</span>
+                    <span>e</span>
+                </div>
+			</div>
+			<button class="hamburger hamburger--elastic" type="button" onclick="hamburgerToggle(this);">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</button>
+			<nav>
+				<ul>
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="index.html#pricing">Services</a></li>
+					<li><a href="index.html#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<button class="dark-mode-button top-dark" aria-label="dark mode toggle">
+                <span aria-hidden="true" class="dark-toggle">
+                    <span class="DTspan"></span>
+                </span>
+            </button>
+		</div>
+	</header>
+	<div class="home">
+		<section class="hero">
+			<div class="stars"></div>
+			<div class="twinkling"></div>
+			<div class="clouds"></div>
+			<div class="shape1">
+				<div data-relative-input="true" id="shape1">
+					<img data-depth="0.1" src="images/shape-1.png" alt="">
+				</div>
+			</div>
+			<div class="shape2">
+				<div data-relative-input="true" id="shape2">
+					<img data-depth="0.1" src="images/shape-3.png" alt="">
+				</div>
+			</div>
+			<div class="shape3">
+				<div data-relative-input="true" id="shape3">
+					<img data-depth="0.1" src="images/shape-4.png" alt="">
+				</div>
+			</div>
+			<div class="shape4">
+				<div data-relative-input="true" id="shape4">
+					<img data-depth="0.1" src="images/shape-6.png" alt="">
+				</div>
+			</div>
+			<div class="inner-container">
+				<div class="content">
+					<h1 class="white">We Build Websites</h1>
+					<p class="white">Stellr Sites builds premium websites for small to medium businesses. Our quality is top notch, our delivery times are fast, and our prices are far lower than others in the market starting at $150/mo.</p>
+					<a href="#pricing"><button class="btn-clear">Learn More</button></a>
+				</div>
+			</div>
+		</section>
+		<section class="section-1">
+			<div class="inner-container">
+				<div class="single">
+					<div class="content">
+						<h3>What We Do</h3>
+						<p>We specialize in small business web design and development for clients anywhere in the US. Every line of code is written by hand to ensure the best performance, which helps bring in more customers to your site and bring more revenue to your business.</p>
+						<a href="#pricing"><button class="btn-blue">Learn More</button></a>
+					</div>
+				</div>
+				<div class="single">
+					<img src="images/working.svg" alt="">
+				</div>
+			</div>
+			<div class="points">
+				<div class="single">
+					<img src="images/responsiveness.svg" alt="">
+					<h5>Fully Responsive</h5>
+					<p>Your website will fit all mobile screens, tablets, and desktop sizes.</p>
+				</div>
+				<div class="single">
+					<img src="images/site-speed.svg" alt="">
+					<h5>Speed Optimization</h5>
+					<p>The time it takes for your site to load is critical. 40% of users will abandon a site if it takes longer than 3 seconds to load.</p>
+				</div>
+				<div class="single">
+					<img src="images/custom-built.svg" alt="">
+					<h5>Custom Built</h5>
+					<p>Every site is custom coded, built to suit your needs.</p>
+				</div>
+			</div>
+		</section>
+		<section class="section-2">
+			<div class="inner-container">
+				<div class="image">
+					<img src="images/stats.svg" alt="">
+				</div>
+				<div class="text">
+					<div class="content">
+						<h3 class="white">Our Numbers</h3>
+						<p class="white">Over the years we’ve built websites for clients of all kinds, from consulting firms to doggy day cares. While they’ve differed in size and industry, they all have one thing in common: they need a clean, fast, and reliable website.</p>
+						<div class="icons">
+							<div>
+								<img src="images/group.png" alt="">
+								<h4 class="white light">100+</h4>
+								<p class="white">Happy <br class="mobile">Clients</p>
+							</div>
+							<div>
+								<img src="images/web-development.png" alt="">
+								<h4 class="white light">9000+</h4>
+								<p class="white">Lines <br class="mobile">of Code</p>
+							</div>
+							<div>
+								<img src="images/medal.png" alt="">
+								<h4 class="white light">125+</h4>
+								<p class="white">Projects <br class="mobile">Completed</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-4" id="portfolio">
+			<div class="inner-container">
+				<h3>We Have Developed <br>Some Great Projects</h3>
+				<div class="flex">
+					<div class="single">
+						<div class="wrapper">
+							<a href="https://www.humblegames.com/" target="_blank"></a>
+							<div class="logo">
+								<img src="images/humblegameslogo.png" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="single">
+						<div class="wrapper">
+							<a href="https://noveome.com/" target="_blank"></a>
+							<div class="logo">
+								<img src="images/noveomelogo.png" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="single">
+						<div class="wrapper">
+							<a href="http://bontempsinteriors.com/" target="_blank"></a>
+							<div class="logo">
+								<img src="images/bontempslogo.png" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="single">
+						<div class="wrapper">
+							<a href="https://arrowheadepinc.com/" target="_blank"></a>
+							<div class="logo">
+								<img src="images/arrowhead_logo.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-5">
+			<div class="inner-container">
+				<h3>A Few Words <br>From Our Clients</h3>
+				<script type="text/javascript">
+				    jQuery(document).ready(function () {
+				        $('.slider').slick({
+				          infinite: true,
+				          autoplaySpeed: 5000,
+				          speed: 500,
+				          cssEase: 'linear',
+				          autoplay: true,
+				          dots: false,
+				          arrows: false,
+				          prevArrow: $('.prev'),
+				          nextArrow: $('.next'),
+				        });
+				    });
+				 </script>
+				<div class="slider">
+					<div class="single">
+						<p>I enjoyed working with Blake. He was very responsive, answered my questions, and completed the job on time. It was an excellent experience.</p>
+						<h5>Jacqueline G.</h5>
+						<div class="rating">
+							<img src="images/star.png" alt="">
+							<img src="images/star.png" alt="">
+							<img src="images/star.png" alt="">
+							<img src="images/star.png" alt="">
+							<img src="images/star.png" alt="">
+						</div>
+					</div>
+					<div class="single">
+						<p>Amazing service! Very thorough and attentive. Fast response time and really appreciated the commitment to getting the job done right. Will definitely recommend and use Blake again!</p>
+						<h5>Rhiannon K.</h5>
+						<div class="rating">
+							<img src="images/star.png" alt="">
+							<img src="images/star.png" alt="">
+							<img src="images/star.png" alt="">
+							<img src="images/star.png" alt="">
+							<img src="images/star.png" alt="">
+						</div>
+					</div>
+					<div class="single">
+						<p>Blake was awesome to work with on our custom website. He was always very quick to respond to any questions we had and was extremely knowledgable in his responses. He was really flexible with our team and turned add-on tasks around very quickly. We were all really pleased with his work and would hire him again in a heartbeat.</p>
+						<h5>Michelle A.</h5>
+						<div class="rating">
+							<img src="images/star.png" alt="">
+							<img src="images/star.png" alt="">
+							<img src="images/star.png" alt="">
+							<img src="images/star.png" alt="">
+							<img src="images/star.png" alt="">
+						</div>
+					</div>
+					<div class="single">
+						<p>Did a great job could not be happier especially with the fast turn around. I would highly recommend Blake West.</p>
+						<h5>Steve O.</h5>
+						<div class="rating">
+							<img src="images/star.png" alt="">
+							<img src="images/star.png" alt="">
+							<img src="images/star.png" alt="">
+							<img src="images/star.png" alt="">
+							<img src="images/star.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<img class="person1" src="images/avatar-1.png" alt="">
+			<img class="person2" src="images/avatar-2.png" alt="">
+			<img class="person3" src="images/avatar-3.png" alt="">
+			<img class="person4" src="images/avatar-4.png" alt="">
+			<img class="person5" src="images/avatar-5.png" alt="">
+			<img class="person6" src="images/avatar-6.png" alt="">
+			<img class="person7" src="images/avatar-7.png" alt="">
+			<img class="person8" src="images/avatar-2.png" alt="">
+		</section>
+		<section class="section-6" id="pricing">
+			<div class="inner-container">
+				<div class="image">
+					<img src="images/pricing.svg" alt="">
+				</div>
+				<div class="content">
+					<h3>$0 Down, $150 Per Month, No Minimum Contract</h3>
+					<p>$0 down for a standard 5 page website. If you need more than that then we have to do custom pricing based on the scope of work, number of additional pages, and time involved. Cancel anytime with no fees or hassle.</p>
+					<div class="list">
+						<div class="single">
+							<img src="images/checkmark.png" alt="">
+							<div class="text">
+								<h6>Hosting Fees Included</h6>
+								<p>Hosting fees are built right into the monthly payment.</p>
+							</div>
+						</div>
+						<div class="single">
+							<img src="images/checkmark.png" alt="">
+							<div class="text">
+								<h6>Unlimited Edits</h6>
+								<p>Change anything you want at anytime and it will be done within 48 hours.</p>
+							</div>
+						</div>
+						<div class="single">
+							<img src="images/checkmark.png" alt="">
+							<div class="text">
+								<h6>24/7 Customer Service</h6>
+								<p>Call direct anytime day or night, no phone trees or automated responses.</p>
+							</div>
+						</div>
+						<div class="single">
+							<img src="images/checkmark.png" alt="">
+							<div class="text">
+								<h6>Web Design & Development</h6>
+								<p>Includes over 40 hours of design, development, and testing.</p>
+							</div>
+						</div>
+						<div class="single">
+							<img src="images/checkmark.png" alt="">
+							<div class="text">
+								<h6>Free redesigns</h6>
+								<p>After 24 months, we'll redesign your site for FREE.</p>
+							</div>
+						</div>
+						<div class="single">
+							<img src="images/checkmark.png" alt="">
+							<div class="text">
+								<h6>Google Analytics</h6>
+								<p>We install analytics for free to monitor traffic and where it comes from.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer id="contact">
+		<div class="top">
+			<div class="inner-container">
+				<div class="left">
+					<div class="single">
+						<img class="phone-icon" src="images/smartphone.svg" alt="">
+						<div class="text">
+							<h5>Phone:</h5>
+							<a href="tel:850-739-2029">850.739.2029</a>
+						</div>
+					</div>
+					<div class="single">
+						<img class="email-icon" src="images/paper-plane.svg" alt="">
+						<div class="text">
+							<h5>Email:</h5>
+							<a href="mailto:hello@stellrsites.com">hello@stellrsites.com</a>
+						</div>
+					</div>
+				</div>
+				<div class="right">
+					<div class="form">
+						<form>
+							<label for="name">Name:</label>
+							<input type="text" id="name" name="name" placeholder="Name"><br>
+							<label for="name">Email Address:</label>
+							<input type="email" id="email" name="email" placeholder="Email Address"><br>
+							<label for="name">Message:</label>
+							<textarea rows="5" id="message" name="email" placeholder="Message"></textarea><br>
+							<input type="submit" value="Submit">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="content">
+				<div class="logo">
+					<img class="white" src="images/footer-logo.png" alt="">
+				</div>
+				<div class="text">
+					<p class="white">Copyright © 2021 | Stellr Sites | All Rights Reserved</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script>
+		var shape1 = document.getElementById('shape1');
+		var parallaxInstance1 = new Parallax(shape1);
+
+		var shape2 = document.getElementById('shape2');
+		var parallaxInstance2 = new Parallax(shape2);
+
+		var shape3 = document.getElementById('shape3');
+		var parallaxInstance3 = new Parallax(shape3);
+
+		var shape4 = document.getElementById('shape4');
+		var parallaxInstance4 = new Parallax(shape4);
+	</script>
+</body>
+<script src="js/scripts.js"></script>
+</html>

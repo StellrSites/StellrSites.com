@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About | Stellr Sites</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+	<link rel="shortcut icon" type="image/jpg" href="images/favicon.png"/>
+	<link rel="stylesheet" href="inc/hamburgers.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Roboto:wght@300&family=Yellowtail&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css"/>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="dark.css">
+</head>
+<body>
+	<header>
+		<div class="inner-container">
+			<div class="logo">
+				<img class="white" src="images/header-logo-white.png" alt="">
+				<img class="teal" src="images/stellr-logo-teal.png" alt="">
+				<h4>stellr</h4>
+				<div aria-hidden="true" class="neon" id="desktop-neon">
+                    <span>N</span>
+                    <span>i</span>
+                    <span>t</span>
+                    <span>e</span>
+                </div>
+			</div>
+			<button class="hamburger hamburger--elastic" type="button" onclick="hamburgerToggle(this);">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</button>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li class="active"><a href="about.html">About</a></li>
+					<li><a href="index.html#pricing">Services</a></li>
+					<li><a href="index.html#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<button class="dark-mode-button top-dark" aria-label="dark mode toggle">
+                <span aria-hidden="true" class="dark-toggle">
+                    <span class="DTspan"></span>
+                </span>
+            </button>
+		</div>
+	</header>
+	<div class="about">
+		<section class="hero">
+			<div class="stars"></div>
+			<div class="twinkling"></div>
+			<div class="clouds"></div>
+			<div class="shape1">
+				<div data-relative-input="true" id="shape1">
+					<img data-depth="0.1" src="images/shape-1.png" alt="">
+				</div>
+			</div>
+			<div class="shape2">
+				<div data-relative-input="true" id="shape2">
+					<img data-depth="0.1" src="images/shape-3.png" alt="">
+				</div>
+			</div>
+			<div class="shape3">
+				<div data-relative-input="true" id="shape3">
+					<img data-depth="0.1" src="images/shape-4.png" alt="">
+				</div>
+			</div>
+			<div class="shape4">
+				<div data-relative-input="true" id="shape4">
+					<img data-depth="0.1" src="images/shape-6.png" alt="">
+				</div>
+			</div>
+			<div class="inner-container">
+				<div class="content">
+					<h1 class="white">About</h1>
+				</div>
+			</div>
+		</section>
+		<section class="main">
+			<div class="inner-container">
+				<div class="left">
+					<img src="images/Blake-animation.png" alt="">
+					<h5>Blake West</h5>
+					<p>Developer | Owner</p>
+				</div>
+				<div class="right">
+					<h3>Nice To Meet You</h3>
+					<p>My name is Blake West, I started Stellr Sites for the simple purpose of helping smaller businesses afford premium websites. I've been building websites for a little over 5 years and through those years, I've seen first-hand that not every business has the same needs or budget for a website. A small restaurant or hair salon does not have the same budget as a multi-million dollar company, but that small business needs a website just as much as that million dollar company.</p>
+					<p>Working in the web design industry has taught me a lot and I've learned what works and what doesn't. What works is building a site custom to the business's needs. What doesn't work is using the same template for every site or using page builders like Wix, Squarespace, or Weebly. One of the most important factors that affects your site's traffic is loading times. If a website takes longer that 3 seconds to load, 40% of users will exit that site. Having a site custom built for your business will keep it lightweight and only use necessary resources.</p>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer id="contact">
+		<div class="top">
+			<div class="inner-container">
+				<div class="left">
+					<div class="single">
+						<img class="phone-icon" src="images/smartphone.svg" alt="">
+						<div class="text">
+							<h5>Phone:</h5>
+							<a href="tel:850-739-2029">850.739.2029</a>
+						</div>
+					</div>
+					<div class="single">
+						<img class="email-icon" src="images/paper-plane.svg" alt="">
+						<div class="text">
+							<h5>Email:</h5>
+							<a href="mailto:contact@stellrsites.com">contact@stellrsites.com</a>
+						</div>
+					</div>
+				</div>
+				<div class="right">
+					<div class="form">
+						<form>
+							<label for="name">Name:</label>
+							<input type="text" id="name" name="name" placeholder="Name"><br>
+							<label for="name">Email Address:</label>
+							<input type="email" id="email" name="email" placeholder="Email Address"><br>
+							<label for="name">Message:</label>
+							<textarea rows="5" id="message" name="email" placeholder="Message"></textarea><br>
+							<input type="submit" value="Submit">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="content">
+				<div class="logo">
+					<img class="white" src="images/footer-logo.png" alt="">
+				</div>
+				<div class="text">
+					<p class="white">Copyright © 2021 | Stellr Sites | All Rights Reserved</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script>
+		var shape1 = document.getElementById('shape1');
+		var parallaxInstance1 = new Parallax(shape1);
+
+		var shape2 = document.getElementById('shape2');
+		var parallaxInstance2 = new Parallax(shape2);
+
+		var shape3 = document.getElementById('shape3');
+		var parallaxInstance3 = new Parallax(shape3);
+
+		var shape4 = document.getElementById('shape4');
+		var parallaxInstance4 = new Parallax(shape4);
+	</script>
+</body>
+<script src="js/scripts.js"></script>
+</html>
