@@ -1181,6 +1181,10 @@ footer .bottom .text {
 		max-width: 125px;
     	margin: 0 auto 45px;
 	}
+
+	.about .hero .shape3 {
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 475px) {
