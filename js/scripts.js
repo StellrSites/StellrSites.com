@@ -116,25 +116,25 @@ darkModeToggle.addEventListener('click', () => {
     }
 });
 
-// const processForm = form => {
-//   const data = new FormData(form)
-//   data.append('form-name', 'Contact Form');
-//   fetch('/', {
-//     method: 'POST',
-//     body: data,
-//   })
-//   .then(() => {
-//     form.innerHTML = `<div class="form--success">Thank you for submitting our form. We'll reach out to you soon!</div>`;
-//   })
-//   .catch(error => {
-//     form.innerHTML = `<div class="form--error">Error: ${error}</div>`;
-//   })
-// }
+const processForm = form => {
+  const data = new FormData(form)
+  data.append('form-name', 'Contact');
+  fetch('/', {
+    method: 'POST',
+    body: data,
+  })
+  .then(() => {
+    form.innerHTML = `<div class="form--success">Thank you for submitting our form. We'll reach out to you soon!</div>`;
+  })
+  .catch(error => {
+    form.innerHTML = `<div class="form--error">Error: ${error}</div>`;
+  })
+}
 
-// const emailForm = document.querySelector('footer .top .right form')
-// if (emailForm) {
-//   emailForm.addEventListener('submit', e => {
-//     e.preventDefault();
-//     processForm(emailForm);
-//   })
-// }
+const emailForm = document.querySelector('footer .top .right form')
+if (emailForm) {
+  emailForm.addEventListener('submit', e => {
+    e.preventDefault();
+    processForm(emailForm);
+  })
+}
