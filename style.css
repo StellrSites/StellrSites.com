@@ -677,6 +677,11 @@ footer .top {
 	padding: 0 30px;
 }
 
+footer .top .tagline {
+	text-align: center;
+	margin-bottom: 35px;
+}
+
 footer .top .inner-container {
 	display: flex;
     justify-content: space-between;
