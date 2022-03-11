@@ -98,7 +98,7 @@ const enableDarkMode = () => {
 // Disable Dark Mode
 const disableDarkMode = () => {
     body.classList.remove('darkMode');
-    localStorage.setItem('darkMode', null)
+    localStorage.setItem('darkMode', 'disabled')
     darkModeToggle.classList.remove('active');
 }
 
@@ -115,6 +115,10 @@ darkModeToggle.addEventListener('click', () => {
         disableDarkMode();
     }
 });
+
+if (localStorage.getItem("darkMode") === null) {
+  enableDarkMode();
+}
 
 const processForm = form => {
   const data = new FormData(form)
